@@ -5,6 +5,10 @@
 
 trigger:
 - main
+variables:
+
+  # Azure Resource Manager connection created during pipeline creation
+  azureSubscription: '67f6c89a-f5b2-42b0-a230-86befd37abe9'
 pool: Myubuntu
 steps:
  inputs:
