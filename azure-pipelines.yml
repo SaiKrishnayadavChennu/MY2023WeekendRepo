@@ -6,7 +6,6 @@
 trigger:
 - main
 pool: Myubuntu
-
 steps:
  inputs:
    mavenpomfile: 'Mywebapp/pom.xml'
