@@ -10,7 +10,11 @@ pool: Myubuntu
 steps:
 -task: Maven@3
  inputs:
- 
+   mavenpomfile: 'Mywebapp/pom.xml'
+   publishJUnitResults: True
+   testResultsFiles: '**/surefire-reports/Test-*.xml'
+   goals: 'package'
+   
 
 
 
