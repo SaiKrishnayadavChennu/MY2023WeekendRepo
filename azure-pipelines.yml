@@ -8,7 +8,6 @@ trigger:
 pool: Myubuntu
 
 steps:
--task: Maven@3
  inputs:
    mavenpomfile: 'Mywebapp/pom.xml'
    publishJUnitResults: True
